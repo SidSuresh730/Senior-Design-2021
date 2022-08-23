@@ -1,0 +1,23 @@
+%% IRIS+ Physical Properties (from Fum)
+
+g = 9.8; % acceleration due to gravity
+
+%Measured characteristics
+M = 1.37 % mass of quadcopter
+D = .2540 % rotor diameter (m)
+LxF = .0923 % Front moment arm length along x-axis (m)
+LyF = .2537 % Front moment arm length along y-axis (m)
+LxB = 0.13 % back x (m)
+LyB = .2252 % back y (m)
+
+
+% Moments of Inertia
+Ixx = 0.0219 % mass moment of inertia x-axis (kgm^2)
+Iyy = 0.0109 % y-axis (kg.m^2)
+Izz = 0.0306 % z-axis (kg.m^2)
+
+% Propeller coefficients
+K_T = ??????;
+K_D = ??????;
+
+wo = sqrt(M*g/(4*K_T));
